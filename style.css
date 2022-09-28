@@ -1,0 +1,228 @@
+.primera-pagina, .segunda-pagina, .tercera-pagina, .cuarta-pagina, .quinta-pagina {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 3rem;
+    background-color: rgb(235, 233, 233);
+    
+    
+}
+.contenedor-titulo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor-imagen-1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.imagen-1 {
+    min-width: 80%;
+    border-radius: 100%;
+}
+h1{
+    font-size: 6rem;
+}
+h2 {
+    color: darkred;
+    font-size: 4rem;
+}
+p {
+    font-size: 1.5rem;
+}
+.btn-1,.btn-2{
+
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(249, 200, 77);
+    transition: 0.5s ease;
+    font-size: 1rem;
+}
+.btn-1:hover, .btn-2:hover {
+    background-color: rgb(177, 141, 88);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    width: 25rem;
+}
+
+
+
+.segunda-pagina{
+    /* display: flex; */
+    min-height: 100vh;
+    flex-direction: row-reverse;
+    background-image: url("https://assets.unileversolutions.com/recipes-v2/218401.jpg" );
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+}
+.subtitulo h2 {
+    color: white;
+   
+}
+.span-subtitulo {
+    height: 50%;
+    margin-top: 0;
+    position: absolute;
+    top: 180px;
+}
+.segunda-pagina p {
+    margin-top: 10%;
+    
+
+}
+.subtitulo {
+    background-color: rgb(139, 0, 0, 0.8);
+    min-height: 100vh;
+    width: 40%;
+    text-align: left;
+    color: white;
+    padding: 0rem 2rem 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    position: absolute;
+}
+.subtitulo button {
+    margin-top: 10rem;
+}
+
+
+
+.tercera-pagina {
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+}
+.tercera-imagenes-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.tercera-pagina button{
+    margin-top: 5rem;
+}
+.Titulo-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Titulo-3 h2 {
+
+    color: darkred;
+
+}
+.foto-hamburguesa-x {
+    width: 400px ;
+}
+.hamburguer1, .hamburguer2, .hamburguer3 {
+    width: 35rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    transition: .5s ease;
+    
+}
+.hamburguer1:hover, .hamburguer2:hover, .hamburguer3:hover, .client-1, .client-2, .client-3 {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+
+.cuarta-pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-client {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 10%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.client-1, .client-2, .client-3 {
+    background-color: darkred;
+    margin: 3rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 15px;
+}
+.client-img {
+    width: 400px;
+}
+.estrellas img {
+    width: 30%;
+    text-align: center;
+}
+.estrellas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+
+
+
+
+.quinta-pagina {
+    background-image: url("https://cdn-3.expansion.mx/dims4/default/f6387c3/2147483647/strip/true/crop/5995x3997+0+0/resize/1200x800!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fbc%2Ffe%2F857d447746868fc1be24ce757400%2Fistock-1295387302.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+}
+.quinta-pagina h2 {
+    color: white;
+}
+.formulario {
+    background-color: rgb(139, 0, 0, 0.8);
+    width: 35%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.footer a:hover {
+    font-size: 2rem;
+}
